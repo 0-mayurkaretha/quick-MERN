@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb+srv://Mark:MARKkarter@cluster0.ndtukx4.mongodb.net/MernPractice?retryWrites=true&w=majority");
+mongoose.connect("< database link here >");
 
 //get data from mongodb server
 app.get("/getUsers", (req, res) => {
